@@ -1,5 +1,5 @@
 /// @description 
 if b_drawBubble
 {
-	DrawSpeechBubble(collided_x,collided_y,collided_halfHeight);
+	DrawSpeechBubble(x,y,sprite_height/2);
 }

@@ -2,7 +2,7 @@
 Clock();
 if IsConversationActive
 {
-	if keyboard_check_pressed(vk_space)
+	if keyboard_check_pressed(vk_space) && CanGoToNext
 	{
 		if dialogueTime >= string_length(commands[dialogueIndex,1])
 		{
@@ -14,6 +14,11 @@ if IsConversationActive
 			{
 				dialogueIndex++;
 				dialogueTime = 0;
+				if	commands[dialogueIndex,6] > 0
+				{
+					waitTime = commands[dialogueIndex,6];
+					CanGoToNext = false;
+				}
 			}
 		}
 		else
@@ -21,6 +26,7 @@ if IsConversationActive
 			dialogueTime = string_length(commands[dialogueIndex,1])
 		}
 	}
+	
 	AddCG(commands[dialogueIndex,2]);
 }
 

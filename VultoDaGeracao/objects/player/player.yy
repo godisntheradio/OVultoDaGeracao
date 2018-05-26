@@ -63,6 +63,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "1a11a7e6-9fd8-4aa6-9e37-c41ef54e8896"
+        },
+        {
+            "id": "8f254972-e278-4ead-b128-6db486952394",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "7c6c6902-1b23-4fa0-b4e8-1f0d0b134bb9",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "1a11a7e6-9fd8-4aa6-9e37-c41ef54e8896"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -92,7 +102,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "10",
             "varName": "speed_movement",
             "varType": 0
         },
@@ -139,7 +149,7 @@
             "varType": 4
         },
         {
-            "id": "407a923b-3002-41c5-9094-1e4068e632d6",
+            "id": "e2b4dfe2-2cbc-47fa-928d-1cd8a647c656",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -149,36 +159,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "collided_x",
-            "varType": 0
-        },
-        {
-            "id": "6b2f34ee-15ec-4cae-ac69-02d00c156dd3",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "collided_y",
-            "varType": 0
-        },
-        {
-            "id": "650946ac-f56f-4d61-ab1f-f789a8200684",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "collided_halfHeight",
-            "varType": 0
+            "varName": "TriggeredConversation",
+            "varType": 3
         }
     ],
     "solid": false,

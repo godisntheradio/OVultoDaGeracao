@@ -5,3 +5,11 @@ if mode == 1
 		mode = 0;
 	}
 }
+if TriggeredConversation
+{
+	if !place_meeting(x,y, conversationRef)
+	{
+		TriggeredConversation = false;
+	}
+	
+}
