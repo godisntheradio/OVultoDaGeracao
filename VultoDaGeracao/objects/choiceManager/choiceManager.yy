@@ -5,13 +5,33 @@
     "name": "choiceManager",
     "eventList": [
         {
-            "id": "538f501a-1509-4f65-a2a2-31085e23d8b4",
+            "id": "28e5a6cd-00bd-45f3-a3ae-90725f383432",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "6e0bb889-a3af-42b8-9434-f0be0b71c8f1"
+        },
+        {
+            "id": "12c15da4-f129-471e-8baa-025f5f936eb8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "6e0bb889-a3af-42b8-9434-f0be0b71c8f1"
+        },
+        {
+            "id": "91c821e2-677f-4060-883d-b7c13e0c1960",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
             "m_owner": "6e0bb889-a3af-42b8-9434-f0be0b71c8f1"
         }
     ],
@@ -32,34 +52,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "8eb06a5d-7250-4846-9b9e-bdff68090bb5",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": " ",
-            "varName": "firstChoice",
-            "varType": 2
-        },
-        {
-            "id": "88856ace-9fe9-43d2-b334-7279f48a4fcd",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": " ",
-            "varName": "secondChoice",
-            "varType": 2
-        },
         {
             "id": "8d0ba895-33e6-45c3-a71f-4390aac170d6",
             "modelName": "GMObjectProperty",
@@ -86,7 +78,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "hasChoiceBeenMade",
-            "varType": 0
+            "varType": 3
         },
         {
             "id": "d5e0b807-e008-42e2-a997-af1b7f0bd4d1",
@@ -100,7 +92,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "selected",
-            "varType": 1
+            "varType": 4
         },
         {
             "id": "0ef4b3ba-446c-40a5-afa6-342fc922d1ab",
@@ -128,6 +120,48 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "secondChoiceRef",
+            "varType": 4
+        },
+        {
+            "id": "6a192481-99b8-400a-acb3-0eb51a2efe0c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hasBeenCreated",
+            "varType": 3
+        },
+        {
+            "id": "4e022d5d-8a4b-468b-87bc-687a6c330114",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "firstChoice",
+            "varType": 4
+        },
+        {
+            "id": "f344d00f-e621-4a99-b892-81caef0f9daa",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "secondChoice",
             "varType": 4
         }
     ],

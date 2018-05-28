@@ -1,10 +1,12 @@
-AddCommand("Ada", "oi esse é o primeiro texto",0,0,0,0,0);
-AddCommand("Ada", "e esse é o segundo texto",0,0,0,0,0);
-AddCommand("Ada", "e esse vai colocar uma image",bg_neighborhood,0,0,0,0);
-AddCommand("Ada", "aqui o back ground vai continuar aparecendo",bg_neighborhood,0,0,0,0);
-AddCommand("Ada", "aqui muda a imagem",bg_field,0,0,0,0);
-AddCommand("Ada", "e aqui ele desaparece",0,0,0,0,0);
-AddCommand("Ada", "tem que esperar um pouco pra passar essa mensagem",0,0,0,0,2);
+AddCommand("Ada", "testar CG", false,bg_neighborhood,0,0,0,0,0);
+AddCommand("Ada", "e ai qual vai ", false,0,0,0,0,0,0);
+truncate[0,0] = "primeira escolha";
+truncate[0,1] = primeira_escolha;
+truncate[1,0] = "segunda escolha";
+truncate[1,1] = segunda_escolha;
+AddCommand("Ada", "escolher mesnage longa pra ver se completa de \n uma vez só?",true, 0,0,0,0,2,truncate);
+
+
 
 
 

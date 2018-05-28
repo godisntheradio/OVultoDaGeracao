@@ -18,6 +18,9 @@ else if instance_exists(current_cg)
 }
 else
 {
-	current_cg = instance_create_layer(0, 0,"CG",BackgroundIMG);
+	current_cg = instance_create_layer(view_xport[0],view_yport[0],"CG",BackgroundIMG);
 	current_cg.sprite_index = argument0;
+	current_cg.image_xscale = view_wport[0]/sprite_get_width(argument0);
+	current_cg.image_yscale = view_hport[0]/sprite_get_height(argument0);
+
 }

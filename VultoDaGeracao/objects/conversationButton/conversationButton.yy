@@ -191,6 +191,20 @@
             "value": "0",
             "varName": "ArrowSubImage",
             "varType": 0
+        },
+        {
+            "id": "4dd7889d-b337-43a5-b4a3-a9711d4680fc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "choiceRef",
+            "varType": 4
         }
     ],
     "solid": false,

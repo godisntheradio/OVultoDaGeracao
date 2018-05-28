@@ -15,12 +15,12 @@
             "m_owner": "7eae6c86-230a-4254-bdce-bfaecd3f1259"
         },
         {
-            "id": "e53c1b5d-3847-4745-8bf4-a6fae319f356",
+            "id": "838d29c0-918e-40cc-8699-66a13ce2747a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 4,
             "eventtype": 6,
             "m_owner": "7eae6c86-230a-4254-bdce-bfaecd3f1259"
         }
@@ -71,7 +71,7 @@
             "varType": 4
         },
         {
-            "id": "7804820f-c7ad-41b6-8b4d-50dc0b1e238a",
+            "id": "f3f66187-e2bc-4ccf-94cf-8ebbc954bcda",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -81,8 +81,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "choiceNumber",
-            "varType": 0
+            "varName": "toConnectTo",
+            "varType": 4
         }
     ],
     "solid": false,

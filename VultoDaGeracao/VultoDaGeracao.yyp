@@ -87,6 +87,22 @@
             }
         },
         {
+            "Key": "2a9c2ddc-90b5-4c98-ab2a-c70d528b8cf9",
+            "Value": {
+                "id": "3cfde0d3-e61b-4b27-89ae-4c4fee56ab49",
+                "resourcePath": "objects\\musicPlayer\\musicPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a1c95ae-5841-4692-96da-402162f47439",
+            "Value": {
+                "id": "dc6a4c30-d2ef-4140-99ca-b3b2ef975687",
+                "resourcePath": "scripts\\CreateChoiceButtons\\CreateChoiceButtons.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3c344ffb-8c2f-4ff0-b68b-a9b7967e331e",
             "Value": {
                 "id": "23f0f579-7b9e-479d-88a0-06daf402c3a1",
@@ -303,10 +319,26 @@
             }
         },
         {
+            "Key": "b00446b8-6dc6-414f-9b56-40e2bfc2e7ff",
+            "Value": {
+                "id": "dee6e737-8d96-46be-9086-3beb442aaf32",
+                "resourcePath": "scripts\\ProcessCommand\\ProcessCommand.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b3cbc9cd-560d-47ef-a4f8-2177feb67fb1",
             "Value": {
                 "id": "8780f679-f0d4-4e10-b92b-6a19015a934c",
                 "resourcePath": "scripts\\AddCommand\\AddCommand.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b9547331-5bd6-4efd-a80a-e59b53b881f0",
+            "Value": {
+                "id": "7c49983a-2b0f-4cb6-8ab1-e3aa2cd50cd6",
+                "resourcePath": "scripts\\CreateChoice\\CreateChoice.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -474,6 +506,9 @@
         "f7df990a-e310-4186-a40a-669ab8b1e7a2",
         "b3cbc9cd-560d-47ef-a4f8-2177feb67fb1",
         "becc7444-d6f0-420d-8c30-53c9dd2ed5fa",
+        "b9547331-5bd6-4efd-a80a-e59b53b881f0",
+        "3a1c95ae-5841-4692-96da-402162f47439",
+        "b00446b8-6dc6-414f-9b56-40e2bfc2e7ff",
         "617634b8-e651-4fcc-82f1-232fbc88090a",
         "f0ff8e5b-9255-4d3e-9eea-7ffad77de42a",
         "a0162f6b-d780-4ab5-8108-fe97db44c531"

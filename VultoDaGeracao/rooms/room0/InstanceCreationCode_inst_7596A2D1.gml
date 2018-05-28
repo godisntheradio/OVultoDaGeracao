@@ -1,1 +1,1 @@
-AddCommand("Vera", "nao preciso ir para esses lados",0,0,0,0,0);
+AddCommand("Vera", "nao preciso ir para esses lados",false,0,0,0,0,0,0);

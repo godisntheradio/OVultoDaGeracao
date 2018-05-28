@@ -1,0 +1,1 @@
+AddCommand("Vera", "texto da primeira opcao",false,0,0,0,0,0,0);

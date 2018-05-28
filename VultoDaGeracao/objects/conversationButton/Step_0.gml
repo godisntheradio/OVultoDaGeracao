@@ -2,23 +2,18 @@
 Clock();
 if IsConversationActive
 {
-	if keyboard_check_pressed(vk_space) && CanGoToNext
+	if keyboard_check_pressed(vk_space) && CanGoToNext && global.playerRef.mode == 1
 	{
 		if dialogueTime >= string_length(commands[dialogueIndex,1])
 		{
-			if CommandCount < dialogueIndex + 2
+			if CommandCount < dialogueIndex + 2 // se nao ter mais comandos, terminar
 			{
-				IsConversationActive = false;
+				FinishConversation(id);
 			}
-			else
+			else // tratar novo comando
 			{
 				dialogueIndex++;
-				dialogueTime = 0;
-				if	commands[dialogueIndex,6] > 0
-				{
-					waitTime = commands[dialogueIndex,6];
-					CanGoToNext = false;
-				}
+				ProcessCommand();
 			}
 		}
 		else
@@ -27,7 +22,7 @@ if IsConversationActive
 		}
 	}
 	
-	AddCG(commands[dialogueIndex,2]);
+	
 }
 
 
