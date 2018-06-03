@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "BackgroundIMG",
     "eventList": [
-        
+        {
+            "id": "534b71ed-3730-4a86-9433-63eb576719e8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "59ee47f9-2d93-4733-8199-4194a6de096c"
+        },
+        {
+            "id": "245274a9-b44a-42c2-a36f-6b02b6e0f2be",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "59ee47f9-2d93-4733-8199-4194a6de096c"
+        },
+        {
+            "id": "a19d7648-c54a-40c8-82cc-f0c383b877d9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "59ee47f9-2d93-4733-8199-4194a6de096c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +51,92 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "b7203ca2-3e35-4d3d-8b8f-da52a6d6a7b5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "DissolveTo",
+            "varType": 5
+        },
+        {
+            "id": "7c54853f-0f39-46c4-9293-924ae205a33c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "StopTransition",
+            "varType": 3
+        },
+        {
+            "id": "80c004c2-5cff-4f54-8a09-3b74925749f7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "TransitionClock",
+            "varType": 0
+        },
+        {
+            "id": "07b45ec6-8216-460e-b28b-7e24483ff45e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "TransitionInterval",
+            "varType": 0
+        },
+        {
+            "id": "3d6d55af-acfb-478b-a99e-46c6066b8bc7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dissolveAlpha",
+            "varType": 0
+        },
+        {
+            "id": "dbd9ed14-c5ed-4a4f-80cd-e036931cfb6e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "CurrentBG",
+            "varType": 5
+        }
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

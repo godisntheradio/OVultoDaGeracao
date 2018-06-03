@@ -1,0 +1,12 @@
+AddCommand("Ada", "testar CG", false,bg_onibus_day,0,0,0,0,0);
+AddCommand("Ada", "e ai qual vai ", false,bg_onibus_day,0,0,0,0,0);
+truncate[0,0] = "primeira escolha";
+truncate[0,1] = primeira_escolha;
+truncate[1,0] = "segunda escolha";
+truncate[1,1] = segunda_escolha;
+AddCommand("Ada", "escolher mesnage longa pra ver se completa de \n uma vez so?",true, 0,0,0,0,2,truncate);
+
+-2 continuar tocando musica
+-1 para de tocar musica
+
+-1 para nao tocar nenhum sfx
