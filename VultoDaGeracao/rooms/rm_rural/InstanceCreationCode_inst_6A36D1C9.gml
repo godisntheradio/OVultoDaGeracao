@@ -1,0 +1,1 @@
+AddCommand("", "testar CG", false,bg_onibus_day,0,0,0,0,0);

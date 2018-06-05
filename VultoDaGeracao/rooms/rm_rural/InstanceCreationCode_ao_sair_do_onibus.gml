@@ -1,0 +1,1 @@
+AddCommand("", "testar no name para pensamento", false,0,afterglow,0,0,0,0);

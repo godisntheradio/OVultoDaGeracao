@@ -18,8 +18,8 @@ with global.musicPlayer
 		}
 		else
 		{
-			audio_play_sound(nextInQueue,50,true);
 			currentSong = nextInQueue;
+			audio_play_sound(currentSong,50,true);
 		}
 	}
 }

@@ -10,3 +10,8 @@ AddCommand("Ada", "escolher mesnage longa pra ver se completa de \n uma vez so?"
 -1 para de tocar musica
 
 -1 para nao tocar nenhum sfx
+
+exemple change layer:
+	trigger = bus_scene1;
+	ToActivate = "Scene2";
+	ToDeactivate = "Scene1";
