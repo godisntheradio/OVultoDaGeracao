@@ -1,5 +1,5 @@
 //comandos para o ler texto
-Clock(CanGoToNext,chronometer,waitTime);
+Clock();
 if IsConversationActive
 {
 	if keyboard_check_pressed(vk_space) && CanGoToNext && global.playerRef.mode == 1

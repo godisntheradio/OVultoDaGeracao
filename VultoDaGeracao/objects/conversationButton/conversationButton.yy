@@ -102,7 +102,7 @@
             "resourceFilter": 1023,
             "value": "noone",
             "varName": "current_cg",
-            "varType": 4
+            "varType": 5
         },
         {
             "id": "6a96bd8a-38d7-4246-98bb-6e3d5cf8b31e",

@@ -1,13 +1,12 @@
 // 0 - trigger
 // 1 - clock
 // 2 - interval
-if !argument0
+if !CanGoToNext
 {
-	argument1 += delta_time/1000000;
-	if argument1 > argument2
+	chronometer += delta_time/1000000;
+	if chronometer > waitTime
 	{
-		argument1 = 0;
-		argument0 = true;
-		argument2 = 0;
+		chronometer = 0;
+		CanGoToNext = true;
 	}
 }

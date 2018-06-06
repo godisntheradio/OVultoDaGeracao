@@ -104,7 +104,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "2",
             "varName": "TransitionInterval",
             "varType": 0
         },
@@ -134,7 +134,7 @@
             "resourceFilter": 1023,
             "value": "-1",
             "varName": "CurrentBG",
-            "varType": 5
+            "varType": 4
         }
     ],
     "solid": false,
