@@ -1,4 +1,4 @@
-if argument0 == 0
+if argument0 == -1
 {
 	if instance_exists(current_cg)
 	{

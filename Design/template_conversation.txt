@@ -6,8 +6,8 @@ truncate[1,0] = "segunda escolha";
 truncate[1,1] = segunda_escolha;
 AddCommand("Ada", "escolher mesnage longa pra ver se completa de \n uma vez so?",true, 0,0,0,0,2,truncate);
 
--2 continuar tocando musica
--1 para de tocar musica
+-1 continuar tocando musica
+-2 para de tocar musica
 
 -1 para nao tocar nenhum sfx
 
@@ -16,7 +16,7 @@ exemple change layer:
 	ToActivate = "Scene2";
 	ToDeactivate = "Scene1";
 
-	
+
 -1 nao coloca BG algum
 
 // 0 - speaker
@@ -28,3 +28,14 @@ exemple change layer:
 // 6 - timeline timeline
 // 7 - wait time in seconds to wait for next line
 // 8 - choice  choice[text, conversation to connect to]
+
+AddCommand("nome","texto",false, /*bg*/0,/*fx*/0,/*timeline*/-1,/*wait*/0,/*choice[text, conversation to connect to]*/,0);
+AddCommand("nome","texto",false, /*bg*/-1,/*fx*/-1,/*timeline*/-1,/*wait*/0,/*choice[text, conversation to connect to]*/,0);
+AddCommand("nome","texto",false, /*bg*/-1,/*fx*/-1,/*timeline*/-1,/*wait*/0,/*choice[text, conversation to connect to]*/,0);
+AddCommand("nome","texto",false, /*bg*/-1,/*fx*/-1,/*timeline*/-1,/*wait*/0,/*choice[text, conversation to connect to]*/,0);
+AddCommand("nome","texto",false, /*bg*/-1,/*fx*/-1,/*timeline*/-1,/*wait*/0,/*choice[text, conversation to connect to]*/,0);
+AddCommand("nome","texto",false, /*bg*/-1,/*fx*/-1,/*timeline*/-1,/*wait*/0,/*choice[text, conversation to connect to]*/,0);
+AddCommand("nome","texto",false, /*bg*/-1,/*fx*/-1,/*timeline*/-1,/*wait*/0,/*choice[text, conversation to connect to]*/,0);
+AddCommand("nome","texto",false, /*bg*/-1,/*fx*/-1,/*timeline*/-1,/*wait*/0,/*choice[text, conversation to connect to]*/,0);
+AddCommand("		", "		",	FALSE	,		, 		,		, 		, 		);
+AddCommand("		", "		",	FALSE	,	-1	, 	-1	,	-1	, 	0	, 	0	);

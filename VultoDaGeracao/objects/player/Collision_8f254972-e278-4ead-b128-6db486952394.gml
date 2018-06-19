@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if mode == 0 && !TriggeredConversation
+if  id.mode == 0 && !id.TriggeredConversation
 {
 	ConnectToConversation(other, id);
 	StartConversation();

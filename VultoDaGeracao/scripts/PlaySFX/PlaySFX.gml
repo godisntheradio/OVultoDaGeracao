@@ -3,7 +3,7 @@ if argument0 == -1
 {	
 	audio_stop_sound(soundFxRef);
 }
-else
+else if audio_exists(argument0)
 {
 	if !audio_is_playing(argument0)
 	{

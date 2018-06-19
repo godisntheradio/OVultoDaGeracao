@@ -1,1 +1,1 @@
-AddCommand("", "testar CG", false,bg_onibus_day,0,0,0,0,0);
+AddCommand("", "Eu vou caminhar pelo campo hoje para aproveitar o cenário,\na noite está tão bonita.",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);

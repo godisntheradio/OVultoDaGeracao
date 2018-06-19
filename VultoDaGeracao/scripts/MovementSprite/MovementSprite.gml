@@ -1,25 +1,25 @@
-if xmove > 0 
+if x > xprevious
 {
 	sprite_index = walk_right2;
 }
-else if xmove < 0
+else if x < xprevious
 {
 	sprite_index = walk_left2;
 }
-if ymove > 0 
+if y > yprevious
 {
 	sprite_index = walk_down2;
 }
-else if ymove < 0
+else if y < yprevious
 {
 	sprite_index = walk_up2;
 }
-if ymove == 0 && xmove == 0
+if y == yprevious && x == xprevious
 {
 	image_index	= 0;
 	image_speed = 0;
 }
 else
 {
-	image_speed = 1;
+	image_speed = 0.85;
 }

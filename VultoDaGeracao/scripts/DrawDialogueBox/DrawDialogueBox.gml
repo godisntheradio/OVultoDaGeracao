@@ -18,4 +18,13 @@ if argument0 != ""
 	draw_set_font(f_text);
 	draw_text_outlined(boxPosX + 25, boxPosY - 28, argument0, c_white, c_black);
 }
-return argument1+1;
+
+if argument1 >= string_length(argument2)
+{
+	return argument1;
+}
+else
+{
+	return argument1+1;
+}
+

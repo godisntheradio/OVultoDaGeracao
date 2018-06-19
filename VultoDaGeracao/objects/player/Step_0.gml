@@ -13,3 +13,7 @@ if TriggeredConversation
 	}
 	
 }
+if mode == 4
+{
+	
+}

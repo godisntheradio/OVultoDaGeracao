@@ -16,7 +16,6 @@ if keyboard_check(vk_left)
 {	
 	xmove  -= argument0;
 }
-MovementSprite();
 if !place_meeting(x + xmove, y + ymove, wall)
 {
 	x += xmove;

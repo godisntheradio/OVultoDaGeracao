@@ -19,4 +19,5 @@ if commands[dialogueIndex,8] != 0
 }
 AddCG(commands[dialogueIndex,3]);
 PlaySong(commands[dialogueIndex,4]);
-PlaySFX(commands[dialogueIndex,5])
+PlaySFX(commands[dialogueIndex,5]);
+RunTimeline(commands[dialogueIndex,6]);

@@ -10,7 +10,8 @@
         "b9547331-5bd6-4efd-a80a-e59b53b881f0",
         "3a1c95ae-5841-4692-96da-402162f47439",
         "b00446b8-6dc6-414f-9b56-40e2bfc2e7ff",
-        "4ce9deca-9be0-44c1-b131-ebb886aa8ef5"
+        "4ce9deca-9be0-44c1-b131-ebb886aa8ef5",
+        "4a0e301d-3f37-4859-a8e4-312e537ce4bf"
     ],
     "filterType": "GMScript",
     "folderName": "ConversationScripts",

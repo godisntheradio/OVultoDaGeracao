@@ -1,11 +1,11 @@
 with global.musicPlayer
 {
-	if argument0 == -1 // parar de tocar musica
+	if argument0 == -2 // parar de tocar musica
 	{
 		audio_stop_sound(currentSong);
 		currentSong = -3;
 	}
-	else if argument0 == -2 //continuar tocando musica
+	else if argument0 == -1 //continuar tocando musica
 	{
 	
 	}

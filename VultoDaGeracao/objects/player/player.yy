@@ -161,6 +161,34 @@
             "value": "0",
             "varName": "TriggeredConversation",
             "varType": 3
+        },
+        {
+            "id": "1a8497fa-f74b-48f2-8165-53eee9bd0658",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "xprev",
+            "varType": 0
+        },
+        {
+            "id": "026e5308-e1cd-4539-b1e9-c24f6b3e03c4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ymove",
+            "varType": 0
         }
     ],
     "solid": false,
