@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "3e417294-1455-472d-a59c-b593a8b1c600",
+            "Value": {
+                "id": "8c10f875-b2fa-49fb-bb28-aa46b6ebd09b",
+                "resourcePath": "sprites\\City_road\\City_road.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "406ddb5f-d991-4682-8c8f-8e237ca3af63",
             "Value": {
                 "id": "7b48bdb0-31bb-4eca-837c-837f89485c0b",
@@ -235,6 +243,14 @@
             "Value": {
                 "id": "40eb582d-4f93-4df4-924c-09cfe9bcebd2",
                 "resourcePath": "rooms\\rm_rural\\rm_rural.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "416925b2-dd98-4b68-8531-beadf432f681",
+            "Value": {
+                "id": "7ec1fb79-3ad0-4c53-b3c2-19435178bbb7",
+                "resourcePath": "rooms\\rm_rural_v2\\rm_rural_v2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -268,6 +284,14 @@
                 "id": "54c467b4-e3ed-4ce8-a943-7a3b7def7c94",
                 "resourcePath": "sprites\\s_arrow\\s_arrow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "47fa6cc5-0465-4664-9c53-50896c0baa48",
+            "Value": {
+                "id": "f30c9021-1dca-42eb-9d35-ca57e743fd7b",
+                "resourcePath": "rooms\\rm_city\\rm_city.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -495,6 +519,14 @@
             }
         },
         {
+            "Key": "8437e873-9e0e-4835-b708-32c39169924f",
+            "Value": {
+                "id": "617381e7-d3b0-4a28-8af6-395aa5c0aa62",
+                "resourcePath": "tilesets\\set_road_sidewalkHalf\\set_road_sidewalkHalf.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "8e9ba2b7-7f04-4a75-a2ac-0549b5ad755d",
             "Value": {
                 "id": "769f157d-1933-42f3-a947-88cacd64838d",
@@ -604,6 +636,14 @@
                 "id": "38cc283f-2d99-4afe-ae79-9bc05f2f7864",
                 "resourcePath": "objects\\conversationButton\\conversationButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6edf788-63b4-49a9-b08d-1db8fa344064",
+            "Value": {
+                "id": "669f35d1-a2dc-4d28-beb6-fa70025f809a",
+                "resourcePath": "tilesets\\set_atlas\\set_atlas.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -791,6 +831,14 @@
             }
         },
         {
+            "Key": "d36d3abb-d2fc-4b58-932a-37ff8411e505",
+            "Value": {
+                "id": "f2bb3aef-07bd-402f-aeaf-2381df44b04c",
+                "resourcePath": "sprites\\Tree\\Tree.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d6bf79dd-ccbd-468e-a4e0-001bd4b4fd21",
             "Value": {
                 "id": "b18cbc5f-dd56-489f-98e4-fa88d4e7a136",
@@ -863,11 +911,27 @@
             }
         },
         {
+            "Key": "eaba3aba-6287-4dc6-9a99-cd154b0fc11b",
+            "Value": {
+                "id": "a819bcae-f539-4666-84d6-bbe8c2a8408f",
+                "resourcePath": "tilesets\\set_road_sidewalk\\set_road_sidewalk.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "ed3dacf1-2e0b-41a8-87a3-e30584ff22e8",
             "Value": {
                 "id": "d164a644-d2cb-4812-ba08-b5802fc0484c",
                 "resourcePath": "views\\ed3dacf1-2e0b-41a8-87a3-e30584ff22e8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ed7f3dcf-3274-4c17-be29-b1538f82e0c3",
+            "Value": {
+                "id": "32b63628-9875-47f1-b0ed-2df20ba59d2d",
+                "resourcePath": "sprites\\city_road_half\\city_road_half.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -892,6 +956,14 @@
                 "id": "a642f91c-311d-4cfe-921c-9094ff4de2b7",
                 "resourcePath": "scripts\\ConnectToConversation\\ConnectToConversation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f2ab9d55-63db-4e0b-9b90-e1214be8e7c5",
+            "Value": {
+                "id": "c5181543-4f56-4c17-9328-6d4116664f55",
+                "resourcePath": "sprites\\terrain_atlas\\terrain_atlas.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,0 +1,1 @@
+AddCommand("", "Eu vou caminhar pelo campo hoje para aproveitar o cenário,\na noite está tão bonita.",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);
