@@ -16,8 +16,11 @@ if keyboard_check(vk_left)
 {	
 	xmove  -= argument0;
 }
-if !place_meeting(x + xmove, y + ymove, wall)
+if !place_meeting(x + xmove, y, wall)
 {
 	x += xmove;
+}
+if !place_meeting(x, y + ymove, wall)
+{
 	y += ymove;
 }

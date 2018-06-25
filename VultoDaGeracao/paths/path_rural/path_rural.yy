@@ -11,16 +11,16 @@
             "id": "0dd562b2-2c21-4ae1-a69c-bbc85cd5639f",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 2370,
-            "y": 3006,
+            "x": 2368,
+            "y": 2944,
             "speed": 100
         },
         {
             "id": "e594ca1d-005f-4bdd-b696-368189adf69d",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 2204,
-            "y": 2979,
+            "x": 2240,
+            "y": 2912,
             "speed": 100
         },
         {

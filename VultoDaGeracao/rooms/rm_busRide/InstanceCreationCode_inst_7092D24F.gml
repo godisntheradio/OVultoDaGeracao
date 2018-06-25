@@ -1,2 +1,2 @@
 NextRoom = rm_rural;
-trigger = bus_scene1;
+Trigger = bus_scene1;

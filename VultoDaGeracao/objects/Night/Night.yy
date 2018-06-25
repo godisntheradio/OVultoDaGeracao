@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Night",
     "eventList": [
-        
+        {
+            "id": "b33d641f-daf0-4f7d-b1a8-9f6cae684df1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "f6b24a2d-abfc-452b-93f4-bcc19abe1dbb"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
