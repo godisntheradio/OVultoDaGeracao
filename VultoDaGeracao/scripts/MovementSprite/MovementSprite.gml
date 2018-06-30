@@ -1,18 +1,40 @@
-if x > xprevious
+if abs(x - xprevious) > abs(y - yprevious)
 {
-	sprite_index = walk_right2;
+	if x > xprevious
+	{
+		sprite_index = walk_right2;
+	}
+	else if x < xprevious
+	{
+		sprite_index = walk_left2;
+	}
+	if y > yprevious
+	{
+		sprite_index = walk_down2;
+	}
+	else if y < yprevious
+	{
+		sprite_index = walk_up2;
+	}
 }
-else if x < xprevious
+else
 {
-	sprite_index = walk_left2;
-}
-if y > yprevious
-{
-	sprite_index = walk_down2;
-}
-else if y < yprevious
-{
-	sprite_index = walk_up2;
+	if y > yprevious
+	{
+		sprite_index = walk_down2;
+	}
+	else if y < yprevious
+	{
+		sprite_index = walk_up2;
+	}
+	if x > xprevious
+	{
+		sprite_index = walk_right2;
+	}
+	else if x < xprevious
+	{
+		sprite_index = walk_left2;
+	}
 }
 if y == yprevious && x == xprevious
 {

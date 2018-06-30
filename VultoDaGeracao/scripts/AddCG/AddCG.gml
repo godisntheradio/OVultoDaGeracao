@@ -2,7 +2,12 @@ if argument0 == -1
 {
 	if instance_exists(current_cg)
 	{
-		instance_destroy(current_cg);
+		
+		if current_cg.CurrentBG != argument0
+		{
+			current_cg.DissolveTo = argument0;
+			current_cg.StopTransition = false;
+		}
 	}
 }
 else if instance_exists(current_cg)
