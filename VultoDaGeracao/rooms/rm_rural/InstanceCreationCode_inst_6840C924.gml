@@ -1,0 +1,2 @@
+AddCommand("	Vera	", "	A residência dos Davydenko fica no fim dessa rua.	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);
+AddCommand("	Vera	", "	Os donos são um casal bem novo, eu os encontrei nas \npoucas vezes que fui ao distrito comercial, são bem \nsimpáticos.	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);

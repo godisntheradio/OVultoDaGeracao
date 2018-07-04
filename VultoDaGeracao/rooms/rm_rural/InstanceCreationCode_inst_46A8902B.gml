@@ -1,0 +1,1 @@
+AddCommand("	Vera	", "	O portão está trancado. Eu passei por essas casa muitas \ne nunca vi ninguém, acho que foi abandonada.	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);

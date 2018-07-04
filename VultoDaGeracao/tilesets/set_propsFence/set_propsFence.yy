@@ -4,7 +4,31 @@
     "mvc": "1.11",
     "name": "set_propsFence",
     "auto_tile_sets": [
-        
+        {
+            "id": "1a8d5d07-3ea6-4276-be89-d673abf1a0d8",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "autotile_1",
+            "tiles": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
     ],
     "macroPageTiles": {
         "SerialiseData": null,

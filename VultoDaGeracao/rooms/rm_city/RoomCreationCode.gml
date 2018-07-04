@@ -1,2 +1,7 @@
 PrepareRoomSystems();
-instance_deactivate_layer("Scene2_path_to_first_encounter");
+instance_deactivate_layer("Part2_A");
+instance_deactivate_layer("Part3_A");
+instance_deactivate_layer("PartFinal_A");
+instance_deactivate_layer("Scene4");
+
+

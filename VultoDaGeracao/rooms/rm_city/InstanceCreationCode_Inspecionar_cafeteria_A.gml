@@ -1,0 +1,1 @@
+AddCommand("	Vera	", "	Eu fiquei supresa quando vi que tinha uma cafeteria aqui, mas \nfica bem movimentado, especiamente no final da \ntarde antes de escurecer. 	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);
