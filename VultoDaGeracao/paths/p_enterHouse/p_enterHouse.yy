@@ -5,7 +5,7 @@
     "name": "p_enterHouse",
     "closed": false,
     "hsnap": 0,
-    "kind": 1,
+    "kind": 0,
     "points": [
         {
             "id": "87be6814-6b08-4bd4-b19d-eb9f55d889b8",
@@ -20,7 +20,7 @@
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 3680,
-            "y": 2944,
+            "y": 2848,
             "speed": 100
         },
         {
@@ -28,7 +28,7 @@
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 3904,
-            "y": 2784,
+            "y": 2720,
             "speed": 100
         },
         {
@@ -36,23 +36,23 @@
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 4032,
-            "y": 2784,
+            "y": 2720,
             "speed": 100
         },
         {
             "id": "20a75386-206f-4b12-b622-ba9fca65a55f",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 4128,
-            "y": 2752,
+            "x": 4096,
+            "y": 2688,
             "speed": 100
         },
         {
             "id": "3abda20e-9e97-4af9-b33a-131292d3cec6",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 4128,
-            "y": 2656,
+            "x": 4096,
+            "y": 2592,
             "speed": 100
         }
     ],

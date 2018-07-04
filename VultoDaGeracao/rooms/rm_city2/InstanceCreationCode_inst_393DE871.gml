@@ -1,0 +1,1 @@
+AddCommand("	Vera	", "	Eu vou tentar passar mais por aqui. Tirando fast foods, tem\n quase tudo o que eu preciso nessa zona do bairro.	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);

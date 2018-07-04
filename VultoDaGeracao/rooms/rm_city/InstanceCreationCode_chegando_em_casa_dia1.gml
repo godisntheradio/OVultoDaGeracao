@@ -1,2 +1,2 @@
 AddCommand("	Vera	", "	​Finalmente cheguei.	",	false	,	bg_blackBG	, 	-1	,	-1	,	-1	, 	0	, 	0	);
-AddCommand("		", "	Não foi um dos melhores inícios de semana. Mas pelo \nmenos agora poderei descansar de verdade.​	",	false	,	bg_blackBG	, 	-1	,	-1	,	-1	, 	0	, 	0	);
+AddCommand("	Vera	", "	Não foi um dos melhores inícios de semana. Mas pelo \nmenos agora poderei descansar de verdade.​	",	false	,	bg_blackBG	, 	-1	,	-1	,	-1	, 	0	, 	0	);

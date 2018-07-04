@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "004b4e0f-5da8-4da2-a4e3-b7636c276685",
+            "Value": {
+                "id": "10c68e9c-50e1-436e-9f73-795b59e83332",
+                "resourcePath": "timelines\\timeline_runToHouse\\timeline_runToHouse.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "025cf357-9ab4-4fc4-bf0b-0070ad8dce97",
             "Value": {
                 "id": "df62f46a-0bb2-450f-9e98-1c433704dc6c",
@@ -775,6 +783,14 @@
             }
         },
         {
+            "Key": "93a88976-9fdb-4f30-a57b-fc62b54656ee",
+            "Value": {
+                "id": "50976d44-0c98-4f73-a968-55e75e9d9dd3",
+                "resourcePath": "rooms\\rm_city2\\rm_city2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "956555da-fee1-41ac-8df1-df1cc3e5f7d2",
             "Value": {
                 "id": "fc60e2ca-414d-48b2-82fa-41d4b159af3f",
@@ -940,6 +956,14 @@
                 "id": "dee6e737-8d96-46be-9086-3beb442aaf32",
                 "resourcePath": "scripts\\ProcessCommand\\ProcessCommand.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b009d2ba-1dc2-4f49-82f5-1bc6cf75f241",
+            "Value": {
+                "id": "a053f1f8-0fd9-41b4-a7e0-89c172403a84",
+                "resourcePath": "timelines\\timeline_runToCity\\timeline_runToCity.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
