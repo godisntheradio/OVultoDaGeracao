@@ -1,0 +1,1 @@
+AddCommand("	Vera	", "	​É melhor não sair ainda, eu tenho um mal pressentimento.​	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);

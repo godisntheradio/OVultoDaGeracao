@@ -1,0 +1,2 @@
+AddCommand("	Vera	", "	​Não devo bisbilhotar tanto. ​	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);
+AddCommand("	Vera	", "	​Principalmente agora que sei que alguém vive aqui.​	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);

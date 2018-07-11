@@ -1,1 +1,0 @@
-AddCommand("	Vera	", "	Eu tomar um café aqui uma hora dessas. Eu sempre \nacabo jantando ou trazendo compras da cidade.	",	false	,	-1	, 	-1	,	-1	,	-1	, 	0	, 	0	);

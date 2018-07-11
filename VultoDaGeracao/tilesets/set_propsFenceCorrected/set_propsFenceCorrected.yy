@@ -2,7 +2,7 @@
     "id": "1f1d1e97-5403-48e7-b3af-b1b92183e2ae",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tileset15",
+    "name": "set_propsFenceCorrected",
     "auto_tile_sets": [
         
     ],

@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "015a4bfe-a0aa-4fe9-8539-42fcd8d24cba",
+            "Value": {
+                "id": "d826d7ea-8d0e-45f0-a852-c0b2ccd02536",
+                "resourcePath": "tilesets\\set_interior2\\set_interior2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "025cf357-9ab4-4fc4-bf0b-0070ad8dce97",
             "Value": {
                 "id": "df62f46a-0bb2-450f-9e98-1c433704dc6c",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "0ecf1ec9-ff1e-46b6-acef-21cde54a6dfe",
+            "Value": {
+                "id": "762040da-32df-45aa-b99e-cd8aba4624fb",
+                "resourcePath": "sounds\\OtherWorlds_03\\OtherWorlds_03.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "12e0c837-28d3-48cd-afda-be9bb4c117ae",
             "Value": {
                 "id": "1f9a3c0e-122c-4832-ab09-c55a75182797",
@@ -210,7 +226,7 @@
             "Key": "1f1d1e97-5403-48e7-b3af-b1b92183e2ae",
             "Value": {
                 "id": "a3b8b000-5bb7-4bc8-99a0-c67b63b9555e",
-                "resourcePath": "tilesets\\tileset15\\tileset15.yy",
+                "resourcePath": "tilesets\\set_propsFenceCorrected\\set_propsFenceCorrected.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -292,6 +308,14 @@
                 "id": "eb6ac852-694a-459e-9262-28fcb4270b02",
                 "resourcePath": "objects\\ResetRoom\\ResetRoom.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "38df79a2-d01d-41b0-b690-15156342c8e7",
+            "Value": {
+                "id": "ffb51c25-8ff2-474e-86f4-4ae3f30044b5",
+                "resourcePath": "sprites\\interior\\interior.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -452,6 +476,14 @@
                 "id": "1f3ef369-0a8b-4c38-b51c-6c0d1ee39f4c",
                 "resourcePath": "sprites\\ts_town1_2xSize\\ts_town1_2xSize.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "503647ce-8bff-44f7-83da-c24cda8e874f",
+            "Value": {
+                "id": "19716248-84b7-4117-8bc6-ae97e49d9438",
+                "resourcePath": "objects\\Flags\\Flags.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -671,6 +703,14 @@
             }
         },
         {
+            "Key": "785642be-8297-4106-affb-57bc0281b7f9",
+            "Value": {
+                "id": "c1ead144-5011-4103-919c-05bd513a8550",
+                "resourcePath": "objects\\FlagChangeTrigger\\FlagChangeTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "79c916ea-9284-498d-a88a-60c08ce597b3",
             "Value": {
                 "id": "39549c4d-8ba0-4f6f-af65-478c10b3d4a1",
@@ -708,6 +748,14 @@
                 "id": "cd6cda4b-de98-468a-98d6-dc831fa4e045",
                 "resourcePath": "sprites\\s_bustop\\s_bustop.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "81f9a2c0-a39b-4278-9200-7ec954278db1",
+            "Value": {
+                "id": "ee473f06-0c7a-4b7b-af4b-903df0fc5cba",
+                "resourcePath": "tilesets\\set_interior3\\set_interior3.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -964,6 +1012,14 @@
                 "id": "a053f1f8-0fd9-41b4-a7e0-89c172403a84",
                 "resourcePath": "timelines\\timeline_runToCity\\timeline_runToCity.yy",
                 "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "b119d426-1a7c-4845-9a1a-7afd6deb0f1a",
+            "Value": {
+                "id": "0ed78b84-cb63-46fe-ac58-07d211443155",
+                "resourcePath": "sounds\\OtherWorlds_01\\OtherWorlds_01.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1228,6 +1284,14 @@
                 "id": "ef728064-6868-4cb3-bf28-f430466adf91",
                 "resourcePath": "scripts\\DrawSpeechBubble\\DrawSpeechBubble.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e8c076ea-2aee-4399-8a6f-d59fd277029c",
+            "Value": {
+                "id": "2c273cef-6c32-40ab-9890-063caf2e0d79",
+                "resourcePath": "rooms\\rm_house\\rm_house.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
